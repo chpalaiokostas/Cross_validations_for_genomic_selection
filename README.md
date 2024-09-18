@@ -1,7 +1,9 @@
-Wrap up function for cross validations in genomic selection models using BGLR
+## Wrap up function for cross validations in genomic selection models using BGLR
 
 -----------------------------------------
-The following arguments can be supplied
+
+### The following arguments can be supplied
+
 * A data frame with phenotypes: Y
 * The first column should be the trait of interest
 * The rest of the columns should be the fixed effect
@@ -22,7 +24,8 @@ The allowed values for censored are TRUE or FALSE
 The allowed values for relationship_matrix are TRUE or FALSE   
 
 -----------------------------------------
-Returns the following:
+
+### Returns the following:
 
 * Pearson correlation between estimated breeding values and the phenotypes from each CV set
 * If the trait is categorical probabilities are returned  
