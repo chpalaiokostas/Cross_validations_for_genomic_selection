@@ -31,3 +31,7 @@ The allowed values for relationship_matrix are TRUE or FALSE
 * If the trait is categorical probabilities are returned  
 * Also returns the bias of the estimated breeding values from each CV set. This is estimated by regressing
 the adjusted for fixed effects phenotype on the estimated breeding value  
+
+### Citation
+
+Palaiokostas, C., Cariou, S., Bestin, A. et al. Genome-wide association and genomic prediction of resistance to viral nervous necrosis in European sea bass (Dicentrarchus labrax) using RAD sequencing. Genet Sel Evol 50, 30 (2018). https://doi.org/10.1186/s12711-018-0401-2
