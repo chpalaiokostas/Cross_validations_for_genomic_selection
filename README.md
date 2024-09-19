@@ -1,5 +1,9 @@
 ## Wrap up function for cross validations in genomic selection models using BGLR
 
+### Info about BGLR
+
+https://github.com/gdlc/BGLR-R
+
 -----------------------------------------
 
 ### The following arguments can be supplied
@@ -30,7 +34,8 @@ The allowed values for relationship_matrix are TRUE or FALSE
 * Pearson correlation between estimated breeding values and the phenotypes from each CV set
 * If the trait is categorical probabilities are returned  
 * Also returns the bias of the estimated breeding values from each CV set. This is estimated by regressing
-the adjusted for fixed effects phenotype on the estimated breeding value  
+the adjusted for fixed effects phenotype on the estimated breeding value
+
 
 ### Citation
 
